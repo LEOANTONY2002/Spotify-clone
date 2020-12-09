@@ -1,0 +1,21 @@
+.opt {
+  color: grey;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: 200ms color ease-in;
+}
+
+.opt:hover {
+  color: white;
+}
+
+.opt_icon {
+  padding: 0 10px;
+}
+
+.opt > p {
+  margin: 10px 0 0 20px;
+  font-size: 14px;
+}
